@@ -5,9 +5,9 @@
   RQ a timeout value while enqueueing a function, use the explicit invocation
   instead:
 
-      ```python
-      q.enqueue(do_something, args=(1, 2), kwargs={'a': 1}, timeout=30)
-      ```
+  ```python
+  q.enqueue(do_something, args=(1, 2), kwargs={'a': 1}, timeout=30)
+  ```
 
 - Add a `@job` decorator, which can be used to do Celery-style delayed
   invocations:
