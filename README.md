@@ -22,6 +22,10 @@ your typically lengthy or blocking function:
         resp = requests.get(url)
         return len(resp.text.split())
     ```
+    
+    ```python
+    print 'the test'
+    ```
 
 You do use the excellent [requests][r] package, don't you?
 
