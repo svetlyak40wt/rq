@@ -25,9 +25,9 @@ your typically lengthy or blocking function:
     
 Hmm
 
-    ```python
-    print 'the test'
-    ```
+```python
+print 'the test'
+```
 
 You do use the excellent [requests][r] package, don't you?
 
