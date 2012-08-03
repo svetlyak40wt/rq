@@ -26,11 +26,11 @@
 
   Then, in another module, you can call `some_work`:
 
-      ```python
-      from foo.bar import some_work
+  ```python
+  from foo.bar import some_work
 
-      some_work.delay(2, 3)
-      ```
+  some_work.delay(2, 3)
+  ```
 
 
 ### 0.2.2
